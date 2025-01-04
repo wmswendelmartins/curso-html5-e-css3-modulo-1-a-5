@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@font-face {
+    font-family: "Passion One";
+    src: url(fontes/Passion_One/PassionOne-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Sriracha";
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
 
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
